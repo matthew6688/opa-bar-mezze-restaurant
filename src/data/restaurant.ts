@@ -1,39 +1,20 @@
-export interface MenuItem {
-  name: string;
-  description: string;
-  price?: string;
-}
-
-export interface MenuSection {
-  title: string;
-  note: string;
-  items: MenuItem[];
-}
-
-export interface RestaurantData {
-  key: string;
-  name: string;
-  cuisine: string;
-  menuSourceLabel: string;
-  menuSourceUrl: string;
-  bookingUrl: string;
-  hours: string[];
-  heroImage: string;
-  sections: MenuSection[];
-}
-
-export const restaurantData: RestaurantData = {
+export const restaurantData = {
   "key": "opa",
   "name": "Opa Bar & Mezze",
   "cuisine": "Greek mezze, oysters, seafood and riverfront banquets",
-  "menuSourceLabel": "Official Opa menu",
+  "menuSourceLabel": "Official website menu + Google Places",
   "menuSourceUrl": "https://www.opabar.com.au/menu",
-  "bookingUrl": "https://www.opabar.com.au/menu",
+  "bookingUrl": "https://www.sevenrooms.com/explore/opabarmezze/reservations/create/search?venues=opabarmezze,pompetteau,darkshepherd,yamasgreekdrink,stilts,richandrarerestaurant,fatcowrestaurant,longwangchopstickhouse,massimorestaurantandbar,foshbarrestaurant",
   "hours": [
-    "Open 7 days",
-    "All day dining 11:00am-late"
+    "Monday: 11:00 AM – 9:30 PM",
+    "Tuesday: 11:00 AM – 9:30 PM",
+    "Wednesday: 11:00 AM – 9:30 PM",
+    "Thursday: 11:00 AM – 9:30 PM",
+    "Friday: 11:00 AM – 10:00 PM",
+    "Saturday: 11:00 AM – 10:00 PM",
+    "Sunday: 11:00 AM – 9:30 PM"
   ],
-  "heroImage": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1400&q=85",
+  "heroImage": "/images/official-1.jpg",
   "sections": [
     {
       "title": "Snacks & Dips",
@@ -113,5 +94,33 @@ export const restaurantData: RestaurantData = {
         }
       ]
     }
-  ]
+  ],
+  "address": "123 Eagle St, Brisbane City QLD 4000, Australia",
+  "phone": "(07) 2111 5155",
+  "internationalPhone": "+61 7 2111 5155",
+  "email": "",
+  "website": "https://www.opabar.com.au/",
+  "googleMapsUrl": "https://maps.google.com/?cid=6901555993627545330",
+  "rating": 4.8,
+  "reviewCount": 3848,
+  "businessStatus": "OPERATIONAL",
+  "location": {
+    "lat": -27.4671695,
+    "lng": 153.0303898
+  },
+  "logoImage": "/images/logo.png",
+  "galleryImages": [
+    "/images/official-2.jpg",
+    "/images/google-1.jpg",
+    "/images/google-2.jpg",
+    "/images/google-3.jpg"
+  ],
+  "brand": {
+    "bg": "#063e52",
+    "paper": "#fbf6ef",
+    "ink": "#112832",
+    "muted": "#5c737b",
+    "accent": "#26b9c8",
+    "accent2": "#f7a7b8"
+  }
 };
