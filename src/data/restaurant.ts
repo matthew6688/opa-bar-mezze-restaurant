@@ -100,7 +100,7 @@ export const restaurantData = {
   "internationalPhone": "+61 7 2111 5155",
   "email": "",
   "website": "https://www.opabar.com.au/",
-  "googleMapsUrl": "https://maps.google.com/?cid=6901555993627545330",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Opa%20Bar%20%26%20Mezze%20123%20Eagle%20St%2C%20Brisbane%20City%20QLD%204000%2C%20Australia",
   "rating": 4.8,
   "reviewCount": 3848,
   "businessStatus": "OPERATIONAL",
