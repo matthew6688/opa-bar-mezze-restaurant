@@ -15,8 +15,8 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: 'Opa Bar & Mezze',
-  tagline: 'Professional restaurant in Brisbane, Australia',
-  description: 'Opa Bar & Mezze - restaurant in Brisbane, Australia. Rated 4.8/5 with 3848 reviews.',
+  tagline: "Greek mezze, oysters, seafood and riverfront banquets",
+  description: "Opa Bar & Mezze menu, hours, phone, address and booking details based on public restaurant data.",
   email: 'contact@opa-bar-mezze.com',
   domain: 'opa-bar-mezze.webjuice.fengtalk.ai',
   fromName: 'Opa Bar & Mezze',
