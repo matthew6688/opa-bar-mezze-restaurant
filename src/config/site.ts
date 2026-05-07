@@ -10,12 +10,12 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Bistro Template',
-  tagline: 'Modern Dining, Timeless Flavor',
-  description: 'A beautiful website template for restaurants, cafes, and food businesses.',
-  email: 'hello@bistro.template',
-  domain: 'restaurant.webjuice.fengtalk.ai',
-  fromName: 'Bistro Template',
+  name: 'Opa Bar & Mezze',
+  tagline: 'Restaurant in Brisbane',
+  description: 'Opa Bar & Mezze is a restaurant in Brisbane City with a shared mezze menu and direct reservations.',
+  email: '',
+  domain: 'opabar.com.au',
+  fromName: 'Opa Bar & Mezze',
   navLinks: [
     { label: 'Home', href: '/' },
     { label: 'Menu', href: '/menu' },
